@@ -1,0 +1,126 @@
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.viewport-container {
+    height: 100vh !important;
+    overflow-y: scroll !important;
+}
+
+.flex-scroll-x {
+    overflow-x: scroll;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    max-width: 40vw;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.flex-scroll-x::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    min-width: 300px;
+}
+
+.mb-auto {
+    margin-bottom: auto !important;
+}
+
+.sidebar-active {
+    --bs-bg-opacity: 0.9;
+    background-color: rgba(
+        var(--bs-primary-rgb),
+        var(--bs-bg-opacity)
+    ) !important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.btn-toggle-nav a {
+    display: inline-flex;
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 2.65rem;
+    text-decoration: none;
+}
+
+.header-image {
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.center-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Full height of the viewport */
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.hero-container {
+    @media (max-width: 768) {
+    }
+}
+
+.shadow-box {
+    border-radius: 15px;
+    border: 3px solid #f4f5f6;
+    box-shadow: 0px 45px 135px -50px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav-bar li {
+    padding: 8px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+.sub-menu {
+    display: none;
+    padding-left: 20px;
+}
+.sub-menu li {
+    background-color: #e9ecef;
+}
+
+/* Content Styles */
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Override any Tailwind CSS classes */
+.bg-gray-100 {
+    background-color: #fff !important;
+}
+.dark\:bg-gray-900 {
+    background-color: #ffffff !important;
+}

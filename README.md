@@ -11,7 +11,7 @@
 
 ## 🛠 Tech Stack:
 - **Frontend:** `PHP`, `Bootstrap`, `HTML`, `CSS`
-- **Backend:** `Laravel`
+- **Backend:** `Laravel` `NodeJS`
 - **Database:** `MySQL`
 - **Authentication:** `Laravel`
 
@@ -31,6 +31,12 @@
 4. **Run the server:**
    ```bash
    php artisan serve
+
+5. **Login Information:**
+   ```bash
+   Admin - Username: admin@eduhub.com Password: password
+   Professor - Username: binder@eduhub.com Password: password
+   Student - Username: alex.smith@eduhub.com Password: password
 
 ## 🚀Image Dump:
 ![image](https://github.com/user-attachments/assets/61e58d6c-1cbc-48ef-a080-17eea64a5c42)

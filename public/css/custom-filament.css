@@ -1,0 +1,60 @@
+a.fi-btn {
+    background-color: #077ddc !important; /* Blue background color */
+    color: white !important; /* White text color */
+}
+
+a.fi-btn:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+}
+
+a.fi-btn:focus-visible {
+    outline-color: #00408d !important; /* Focus outline color */
+    outline-offset: 2px;
+}
+
+
+/* Define the custom font */
+@font-face {
+    font-family: 'DM Sans';
+    src: url('/fonts/DM_Sans/DMSans-VariableFont_opsz,wght.ttf') format('truetype'); /* Adjust the format if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font to Filament components */
+body, .fi-btn, .fi-card, .fi-table, .fi-input {
+    font-family: 'DM Sans', sans-serif; /* Use the custom font for all Filament components */
+}
+
+.text-primary-600{
+    color: #077ddc !important;
+}
+
+.text-custom-600{
+    color: #077ddc !important;
+}
+
+.dark\:bg-custom-500:is(.dark *){
+     background-color: #077ddc !important; 
+}
+
+/* Target the specific span with truncate class */
+span.truncate {
+    color: white !important; /* Use !important to ensure it overrides other styles */
+}
+
+/* If needed, you can use a more specific selector */
+span.truncate.text-custom-600 {
+    color: white !important; /* Override the color */
+}
+
+
+
+.dark\:checked\:bg-primary-500:checked:is(.dark *){
+    background-color: #077ddc !important;
+}
+
+.\[\&\>\*\:first-child\]\:dark\:before\:bg-primary-500:is(.dark *)>:first-child:before{
+    background-color: #077ddc !important;
+}
+

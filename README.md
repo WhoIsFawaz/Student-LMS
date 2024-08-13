@@ -31,3 +31,11 @@
 4. **Run the server:**
    ```bash
    php artisan serve
+
+## 🚀Image Dump:
+![image](https://github.com/user-attachments/assets/61e58d6c-1cbc-48ef-a080-17eea64a5c42)
+![image](https://github.com/user-attachments/assets/e2a50ed9-c6f6-47f5-b7f2-f517ff224c4e)
+![image](https://github.com/user-attachments/assets/7e55d927-935b-4668-9309-765f9c559775)
+![image](https://github.com/user-attachments/assets/a8fbb3ab-e9b6-49d1-9b4e-fa3169c44d44)
+![image](https://github.com/user-attachments/assets/7af1df1d-b483-4712-992e-fe5d072e4d33)
+
